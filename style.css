@@ -853,10 +853,7 @@ input[type="email"]
     background-color:rgba(173, 216, 230, 0.253);
 
 }
-header
-{
-    border-bottom:1px solid black
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
