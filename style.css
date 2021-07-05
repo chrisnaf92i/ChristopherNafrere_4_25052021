@@ -506,7 +506,6 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
 
@@ -839,6 +838,25 @@ h4 {
 {
     font-size:22px;
 }
+
+input[type=text]
+{
+    border:1px solid black;
+}
+input[type="email"]
+{
+    border:1px solid black;
+}
+textarea
+{
+    border:1px solid black;
+}
+
+header
+{
+    border-bottom:1px solid black
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1046,6 +1064,10 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .img-responsive
+    {
+        margin:auto;
     }
 }
 
