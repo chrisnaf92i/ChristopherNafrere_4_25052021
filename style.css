@@ -512,6 +512,12 @@ button {
     box-shadow: none;
 }
 
+form
+{
+    width:80%;
+    margin:auto;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -743,6 +749,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin:auto;
 }
 
 .portfolio-row {
@@ -852,6 +859,15 @@ input[type="email"]
     border:1px solid black;
     background-color:rgba(173, 216, 230, 0.253);
 
+}
+
+.text-background
+{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.288);
+    width:80%;
+    margin:auto;
+    padding:25px;
 }
 
 
